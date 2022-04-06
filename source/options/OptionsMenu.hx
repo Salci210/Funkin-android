@@ -121,13 +121,7 @@ class OptionsMenu extends MusicBeatState
 					WebViewVideo.openVideo('ughCutscene');
 					#end
 					
-					grpControls.forEach(function(txt:FlxText)
-		{
-			txt.color = FlxColor.WHITE;
-
-			if (txt.ID == curSelected)
-				txt.color = FlxColor.YELLOW;
-		});
+	
 			}
 		}
 
