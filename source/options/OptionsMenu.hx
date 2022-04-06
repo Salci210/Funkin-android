@@ -130,7 +130,6 @@ class OptionsMenu extends MusicBeatState
 		});
 			}
 		}
-		}
 
 		if (isSettingControl)
 			waitingInput();
